@@ -14,7 +14,7 @@ fi
 
 #parse host hardware specifications using bash cmds
 hostname=$(hostname -f)
-memory_free=$(cat /proc/meminfo | egrep "^MemFree" | awk '{print $2}')
+memory_free=$(awk '$3=="kB"{$2=$2/1024;$3="MB"} 1' /proc/meminfo| egrep "^MemFree" | awk '{print int($2)}')
 cpu_idle=$(vmstat --unit M|awk 'FNR == 3{print $15}')
 cpu_kernel=$(vmstat --unit M|awk 'FNR == 3{print $14}')
 disk_io=$(vmstat -d | awk 'FNR == 3{print $10}')
