@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 The purpose of this project was to help 
 the Linux Cluster Administration team to 
@@ -14,7 +14,7 @@ one database. We used docker to provision the
 postgresql instance and the automation process was achieved
 using crontab. 
 
-#Quick Start
+# Quick Start
 
 Starting a psql instance using psql_docker.sh
 ```bash
@@ -38,7 +38,7 @@ Crontab setup
 ```bash
 * * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
-#Implementation
+# Implementation
 
 The first bash script that was implemented was the 
 psql_docker.sh file. This provisions the postgresql instance
@@ -50,11 +50,11 @@ set up with the appropriate data types and relations. We then wrote two more scr
 system information to the info table and usage information to the usage table. Finally, we set up crontab 
 for the host_usage script to run every minute, which inserts data into the table automatically.
 
-#Architecture
+# Architecture
 
 ![architecture](https://user-images.githubusercontent.com/91636946/151421004-f243b09c-8e28-42e5-8402-dc6008df3030.png)
 
-##Scripts
+## Scripts
 
 - psql_docker.sh 
   - This script first starts the docker
@@ -125,7 +125,7 @@ was getting updated every minute.
 - To test the queries, I waited a couple of days for data to fill the table 
 and used dbeaver to write the queries in a more graphically oriented environment.
 
-#Improvements
+# Improvements
 
 3 things that I would like to improve:
 - Paying attention to detail to reduce errors
