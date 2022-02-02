@@ -1,4 +1,5 @@
 #Introduction
+
 The purpose of this project was to help 
 the Linux Cluster Administration team to 
 monitor node resource usage (e.g.,CPU,memory)
@@ -14,6 +15,7 @@ postgresql instance and the automation process was achieved
 using crontab. 
 
 #Quick Start
+
 Starting a psql instance using psql_docker.sh
 ```bash
 ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
@@ -37,6 +39,7 @@ Crontab setup
 * * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 #Implementation
+
 The first bash script that was implemented was the 
 psql_docker.sh file. This provisions the postgresql instance
 that we need to build our database on. Using the instance, we 
@@ -48,8 +51,11 @@ system information to the info table and usage information to the usage table. F
 for the host_usage script to run every minute, which inserts data into the table automatically.
 
 #Architecture
+
 ![architecture](https://user-images.githubusercontent.com/91636946/151421004-f243b09c-8e28-42e5-8402-dc6008df3030.png)
+
 ##Scripts
+
 - psql_docker.sh 
   - This script first starts the docker
   and can do one of three things depending on the command line input. It can either create and start the container
@@ -83,6 +89,7 @@ If there is a problem somewhere and there is a server failure, we can find the t
 when the server failed.
 
 ## Database Modeling
+
 - host_info
   - id : SERIAL (PRIMARY KEY)
   - hostname : VARCHAR
@@ -103,6 +110,7 @@ when the server failed.
   - disk_available : INT
 
 # Test
+
 - To test psql_docker.sh, we created an instance 
 of the psql docker and ran the script to create another container.
 It showed an error message: container already exist, 
@@ -118,6 +126,7 @@ was getting updated every minute.
 and used dbeaver to write the queries in a more graphically oriented environment.
 
 #Improvements
+
 3 things that I would like to improve:
 - Paying attention to detail to reduce errors
   - (e.g) know when to use " " instead of ' ' and vice versa
