@@ -11,7 +11,7 @@ case $cmd in
   create)
   if [ $container_status -ge 1 ]; then
 		echo 'Container already exists'
-		exit 1
+		exit 0
 	fi
 
   if [ $# -ne 3 ]; then

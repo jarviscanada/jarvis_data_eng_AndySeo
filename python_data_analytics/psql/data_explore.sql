@@ -4,42 +4,41 @@
 -- Show first 10 rows
 SELECT * 
 FROM retail 
-limit 10;
+LIMIT 10;
 
 -- Check # of records
-select COUNT(*) as num_records
-from retail;
+SELECT COUNT(*) as num_records
+FROM retail;
 
 -- number of clients (e.g. unique client ID)
-select count(distinct customer_id) as num_clients
-from retail;
+SELECT COUNT(DISTINCT customer_id) as num_clients
+FROM retail;
 
 --invoice date range (e.g. max/min dates)
-select max(invoice_date) as max, 
-	   min(invoice_date) as min
-from retail;
+SELECT MAX(invoice_date) as max,
+	   MIN(invoice_date) as min
+FROM retail;
 
 --number of SKU/merchants (e.g. unique stock code)
-select count(distinct stock_code) as count
-from retail;
+SELECT COUNT(DISTINCT stock_code) as count
+FROM retail;
 
 --Calculate average invoice amount excluding invoices with a negative amount 
 --(e.g. canceled orders have negative amount)
-with cte as(SELECT invoice_no, quantity * unit_price as price
-FROM retail),
-cte2 as(select invoice_no,sum(price) as sums
-from cte
-group by 1)
-select avg(sums)
-from cte2
-where sums > 0;
+WITH cte as(SELECT invoice_no, quantity * unit_price as price
+            FROM retail),
+cte2 as(SELECT invoice_no,SUM(price) as sums
+        FROM cte
+        GROUP BY invoice_no)
+SELECT AVG(sums)
+FROM cte2
+WHERE sums > 0;
 
 --Calculate total revenue (e.g. sum of unit_price * quantity)
-select sum(unit_price * quantity) as tot_revenue
-from retail;
+SELECT SUM(unit_price * quantity) as tot_revenue
+FROM retail;
 --Calculate total revenue by YYYYMM 
-SELECT to_char(invoice_date , 'yyyymm') as yyyymm,sum(unit_price * quantity) as tot_revenue
-from retail
-group by 1
-order by yyyymm;
-
+SELECT to_char(invoice_date , 'yyyymm') as yyyymm,SUM(unit_price * quantity) as tot_revenue
+FROM retail
+GROUP BY yyyymm
+ORDER BY yyyymm;

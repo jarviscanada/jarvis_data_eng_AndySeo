@@ -8,7 +8,7 @@ psql_password=$5
 
 #assign CLI arguments to variables (e.g. `psql_host=$1`)
 if [ $# -ne 5 ]; then
-  echo "Need more arguments"
+  echo "Need 5 arguments"
   exit 1
 fi
 
@@ -27,3 +27,4 @@ insert_stmt="INSERT INTO host_usage(timestamp,host_id,memory_free,cpu_idle,cpu_k
 #- execute the INSERT statement through psql CLI tool
 export PGPASSWORD=$psql_password
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+exit $?
