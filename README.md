@@ -1,6 +1,6 @@
 # Andy Seo . Jarvis Consulting
 
-I'm a recent graduate of the University of Toronto with a Bachelor of Science in Statistics, Computer Science, and Mathematics. During my undergrad, I built a strong foundation in Data Science with statistical/mathematical theories, data concepts, data structures, and machine learning algorithms. This field excites me because data allows us to see the problem from a different perspective and help us identify the underlying problem, which we can implement strategies to overcome that problem. Due to my investigative nature, I find great satisfaction when I extract insights from data. I'm very team-oriented and prioritize punctuality over anything.
+I'm a recent graduate from the University of Toronto with a Bachelor of Science in Statistics, Computer Science, and Mathematics. During my undergrad, I built a strong foundation in Data Science with statistical/mathematical theories, data concepts, data structures, and machine learning algorithms. This field excites me because data allows us to see the problem from a different perspective and help us identify the underlying problem, which we can implement strategies to overcome that problem. Due to my investigative nature, I find great satisfaction when I extract insights from data. I'm very team-oriented and prioritize punctuality over anything.
 
 ## Skills
 
@@ -46,8 +46,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AndySeo](h
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Golf
+- Tennis
