@@ -32,7 +32,7 @@ and we had to take measures to optimize them.
   - Instead of using a table that points into google storage, we moved the data into the HDFS to speed up the query
   - Created a partition table (partitioned by year) to query information about years
   - Optimized HQL query using columnar file. We stored the table as a parquet to speed up the queries. 
-- Post your Zeppelin Notebook screenshot here
+![zeppelin notebook](https://raw.githubusercontent.com/jarviscanada/jarvis_data_eng_AndySeo/feature/readme/hadoop/assets/zeppelin%20notebook.png)
    
 # Improvements
 - Had some difficulty adjusting to the HQL syntax from SQL but quickly adjusted to the new syntax
