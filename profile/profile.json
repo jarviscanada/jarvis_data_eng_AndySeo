@@ -1,0 +1,103 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Science",
+      "department": "Major in Statistics, Minor in Computer Science and Mathematics",
+      "duration": "2016-2021",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AndySeo",
+  "highlighted_projects": [
+    {
+      "description": "Web scraped realtor.ca near Richmond Hill to obtain 1300 rows of data and proceeded with Data Cleaning, Feature Engineer, Exploratory Data Analysis and created interactive dashboards with Tableau.",
+      "git_url": "https://github.com/andyjhseo/PortfolioProject/blob/main/Real_Estate_Analysis.ipynb",
+      "name": "Realtor.ca Analysis for house listings near Richmond Hill"
+    },
+    {
+      "description": "Differentiate picture of shoe with either a left shoe or right shoe using machine learning. Data gathered and formatted manually, implemented two different versions of convolutional neural networks from scratch using TensorFlow. Plotting the accuracy curves with matplotlib along with automated hyperparameter tuning",
+      "git_url": "https://github.com/andyjhseo/PortfolioProject/blob/main/Shoe_Classification%20(1).ipynb",
+      "name": "Shoe classification using Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Helped the Linux Cluster Administration team to monitor node resource usage (e.g.,CPU,memory) in real time. Wrote bash scripts that will help the LCA team easily set up the postgresql instance, create the database and appropriate tables, and save the usage data into the database. Implemented scripts that can run simultaneously on different machines that will track the usages from multiple machines into one database. Used docker to provision the postgresql instance and the automation process was achieved using crontab.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "",
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "Created a proof of concept (PoC) that will help the LGS marketing by analyzing customer shopping behavior. Used docker to provision the PostgreSQL instance and and loaded the retail data received from LGS into the PSQL data warehouse. Used a SQL client to explore the data/ write queries. Used Jupyter Notebook for analysis, Pandas library for data manipulation, matplotlib for visualizations and numpy for numerical operations. Integrated the RFM Segmentation table that group customers into meaningful categories to help determine the optimal strategies for marketing.",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "Used big data platforms like Apache Hadoop and evaluated different tools for processing big data. Evaluated Core Hadoop components, including MapReduce, HDFS, and YARN. Provisioned the Hadoop cluster using Google Cloud Platform with 1 master node and 2 worker nodes. Loaded/queried the data to answered business questions using Apache Hive and Zeppelin Notebook. Implemented various strategies to optimize our query execution times and compared their performances to gain a better understanding of what is happening internally.",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Andy Seo",
+  "others": [
+    {
+      "bullets": [
+        "Golf",
+        "Tennis"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue.",
+      "duration": "2021-present",
+      "title": "Data Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Machine Learning",
+      "Webscraping",
+      "Agile/Scrum",
+      "Git",
+      "Linux/Bash"
+    ],
+    "familiar": [
+      "Hadoop",
+      "Java",
+      "C",
+      "Google Cloud Platform",
+      "Virtual Machines"
+    ],
+    "proficient": [
+      "Python",
+      "RDBMS/SQL",
+      "R",
+      "Tableau",
+      "Probability/Statistics"
+    ]
+  },
+  "summary": "I'm a recent graduate from the University of Toronto with a Bachelor of Science in Statistics, Computer Science, and Mathematics. During my undergrad, I built a strong foundation in Data Science with statistical/mathematical theories, data concepts, data structures, and machine learning algorithms. This field excites me because data allows us to see the problem from a different perspective and help us identify the underlying problem, which we can implement strategies to overcome that problem. Due to my investigative nature, I find great satisfaction when I extract insights from data. I'm very team-oriented and prioritize punctuality over anything."
+}

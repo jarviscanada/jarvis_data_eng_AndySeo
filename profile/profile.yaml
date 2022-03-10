@@ -1,0 +1,106 @@
+# Preferred name (Characters only)
+name: "Andy Seo"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AndySeo
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I'm a recent graduate from the University of Toronto with a Bachelor of Science in Statistics, Computer Science, and Mathematics. During my undergrad, I built a strong foundation in Data Science with statistical/mathematical theories, data concepts, data structures, and machine learning algorithms. This field excites me because data allows us to see the problem from a different perspective and help us identify the underlying problem, which we can implement strategies to overcome that problem. Due to my investigative nature, I find great satisfaction when I extract insights from data. I'm very team-oriented and prioritize punctuality over anything.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - RDBMS/SQL
+    - R
+    - Tableau
+    - Probability/Statistics
+
+  # At least 5 skills
+  competent:
+    - Machine Learning
+    - Webscraping
+    - Agile/Scrum
+    - Git
+    - Linux/Bash
+
+  # At least 5 skills
+  familiar:
+    - Hadoop
+    - Java
+    - C
+    - Google Cloud Platform
+    - Virtual Machines
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Helped the Linux Cluster Administration team to monitor node resource usage (e.g.,CPU,memory) in real time. Wrote bash scripts that will help the LCA team easily set up the postgresql instance, create the database and appropriate tables, and save the usage data into the database. Implemented scripts that can run simultaneously on different machines that will track the usages from multiple machines into one database. Used docker to provision the postgresql instance and the automation process was achieved using crontab."
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description: ""
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: "Created a proof of concept (PoC) that will help the LGS marketing by analyzing customer shopping behavior. Used docker to provision the PostgreSQL instance and and loaded the retail data received from LGS into the PSQL data warehouse. Used a SQL client to explore the data/ write queries. Used Jupyter Notebook for analysis, Pandas library for data manipulation, matplotlib for visualizations and numpy for numerical operations. Integrated the RFM Segmentation table that group customers into meaningful categories to help determine the optimal strategies for marketing."
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: "Used big data platforms like Apache Hadoop and evaluated different tools for processing big data. Evaluated Core Hadoop components, including MapReduce, HDFS, and YARN. Provisioned the Hadoop cluster using Google Cloud Platform with 1 master node and 2 worker nodes. Loaded/queried the data to answered business questions using Apache Hive and Zeppelin Notebook. Implemented various strategies to optimize our query execution times and compared their performances to gain a better understanding of what is happening internally."
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Realtor.ca Analysis for house listings near Richmond Hill"
+    #URL is optional
+    git_url: "https://github.com/andyjhseo/PortfolioProject/blob/main/Real_Estate_Analysis.ipynb"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Web scraped realtor.ca near Richmond Hill to obtain 1300 rows of data and proceeded with Data Cleaning, Feature Engineer, Exploratory Data Analysis and created interactive dashboards with Tableau."
+  - name: "Shoe classification using Machine Learning"
+    git_url: "https://github.com/andyjhseo/PortfolioProject/blob/main/Shoe_Classification%20(1).ipynb"
+    description: "Differentiate picture of shoe with either a left shoe or right shoe using machine learning. Data gathered and formatted manually, implemented two different versions of convolutional neural networks from scratch using TensorFlow. Plotting the accuracy curves with matplotlib along with automated hyperparameter tuning"
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Analyst"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue."
+
+#List of edcuation
+education: 
+  - school_name: "University of Toronto"
+    duration: "2016-2021"
+    degree: "Bachelor of Science"
+    department: "Major in Statistics, Minor in Computer Science and Mathematics"
+    # optional
+    awards_achievements:
+
+
+
+#Optional section
+others:
+    #category
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Golf"
+      - "Tennis"
+
+
