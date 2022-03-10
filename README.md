@@ -4,9 +4,9 @@ I'm a recent graduate from the University of Toronto with a Bachelor of Science 
 
 ## Skills
 
-**Proficient:** Machine Learning, Webscraping, Agile/Scrum, Git, Linux/Bash
+**Proficient:** Python, RDBMS/SQL, R, Tableau, Probability/Statistics
 
-**Competent:** Python, RDBMS/SQL, R, Tableau, Probability/Statistics
+**Competent:** Machine Learning, Webscraping, Agile/Scrum, Git, Linux/Bash
 
 **Familiar:** Hadoop, Java, C, Google Cloud Platform, Virtual Machines
 
@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AndySeo](h
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/python_data_anlytics)]: Created a proof of concept (PoC) that will help the LGS marketing by analyzing customer shopping behavior. Used docker to provision the PostgreSQL instance and and loaded the retail data received from LGS into the PSQL data warehouse. Used a SQL client to explore the data/ write queries. Used Jupyter Notebook for analysis, Pandas library for data manipulation, matplotlib for visualizations and numpy for numerical operations. Integrated the RFM Segmentation table that group customers into meaningful categories to help determine the optimal strategies for marketing.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/hadoop)]: Not Started
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/hadoop)]: Used big data platforms like Apache Hadoop and evaluated different tools for processing big data. Evaluated Core Hadoop components, including MapReduce, HDFS, and YARN. Provisioned the Hadoop cluster using Google Cloud Platform with 1 master node and 2 worker nodes. Loaded/queried the data to answered business questions using Apache Hive and Zeppelin Notebook. Implemented various strategies to optimize our query execution times and compared their performances to gain a better understanding of what is happening internally.
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/spark)]: Not Started
 
