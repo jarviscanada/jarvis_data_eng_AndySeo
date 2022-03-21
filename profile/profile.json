@@ -28,16 +28,6 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "",
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
       "description": "Created a proof of concept (PoC) that will help the LGS marketing by analyzing customer shopping behavior. Used docker to provision the PostgreSQL instance and and loaded the retail data received from LGS into the PSQL data warehouse. Used a SQL client to explore the data/ write queries. Used Jupyter Notebook for analysis, Pandas library for data manipulation, matplotlib for visualizations and numpy for numerical operations. Integrated the RFM Segmentation table that group customers into meaningful categories to help determine the optimal strategies for marketing.",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
@@ -48,14 +38,9 @@
       "name": "Hadoop"
     },
     {
-      "description": "",
+      "description": "Re-implemented the Python Data analytics using Spark and Databricks. Set up Azure Databricks workspace and Spark cluster consisting of 1 master and 1 worker. Big data solution for business problem.",
       "git_url": "/spark",
       "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Andy Seo",
@@ -71,7 +56,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue.",
+      "description": "Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue. Worked with Big data platforms like Hadoop to optimize query times and gain in depth understanding of distributed file systems. Worked with Microsoft Azure Databricks to create workspace and spark cluster to implement big data solutions for LGS.",
       "duration": "2021-present",
       "title": "Data Analyst"
     }
@@ -79,6 +64,7 @@
   "skills": {
     "competent": [
       "Machine Learning",
+      "Data Mining/ Neural Networks",
       "Webscraping",
       "Agile/Scrum",
       "Git",
@@ -89,14 +75,17 @@
       "Java",
       "C",
       "Google Cloud Platform",
-      "Virtual Machines"
+      "Virtual Machines",
+      "Spark",
+      "Databricks"
     ],
     "proficient": [
-      "Python",
+      "Python (Pandas, NumPy, Matplotlib/Seaborn)",
       "RDBMS/SQL",
       "R",
       "Tableau",
-      "Probability/Statistics"
+      "Probability/Statistical Modeling (Regression and Classification Models)",
+      "Jupyter Notebook"
     ]
   },
   "summary": "I'm a recent graduate from the University of Toronto with a Bachelor of Science in Statistics, Computer Science, and Mathematics. During my undergrad, I built a strong foundation in Data Science with statistical/mathematical theories, data concepts, data structures, and machine learning algorithms. This field excites me because data allows us to see the problem from a different perspective and help us identify the underlying problem, which we can implement strategies to overcome that problem. Due to my investigative nature, I find great satisfaction when I extract insights from data. I'm very team-oriented and prioritize punctuality over anything."
