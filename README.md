@@ -4,11 +4,11 @@ I'm a recent graduate from the University of Toronto with a Bachelor of Science 
 
 ## Skills
 
-**Proficient:** Python, RDBMS/SQL, R, Tableau, Probability/Statistics
+**Proficient:** Python (Pandas, NumPy, Matplotlib/Seaborn), RDBMS/SQL, R, Tableau, Probability/Statistical Modeling (Regression and Classification Models), Jupyter Notebook
 
-**Competent:** Machine Learning, Webscraping, Agile/Scrum, Git, Linux/Bash
+**Competent:** Machine Learning, Data Mining/ Neural Networks, Webscraping, Agile/Scrum, Git, Linux/Bash
 
-**Familiar:** Hadoop, Java, C, Google Cloud Platform, Virtual Machines
+**Familiar:** Hadoop, Java, C, Google Cloud Platform, Virtual Machines, Spark, Databricks
 
 ## Jarvis Projects
 
@@ -17,17 +17,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AndySeo](h
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/linux_sql)]: Helped the Linux Cluster Administration team to monitor node resource usage (e.g.,CPU,memory) in real time. Wrote bash scripts that will help the LCA team easily set up the postgresql instance, create the database and appropriate tables, and save the usage data into the database. Implemented scripts that can run simultaneously on different machines that will track the usages from multiple machines into one database. Used docker to provision the postgresql instance and the automation process was achieved using crontab.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/core_java)]: Not Started
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/springboot)]: Not Started
-
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/python_data_anlytics)]: Created a proof of concept (PoC) that will help the LGS marketing by analyzing customer shopping behavior. Used docker to provision the PostgreSQL instance and and loaded the retail data received from LGS into the PSQL data warehouse. Used a SQL client to explore the data/ write queries. Used Jupyter Notebook for analysis, Pandas library for data manipulation, matplotlib for visualizations and numpy for numerical operations. Integrated the RFM Segmentation table that group customers into meaningful categories to help determine the optimal strategies for marketing.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/hadoop)]: Used big data platforms like Apache Hadoop and evaluated different tools for processing big data. Evaluated Core Hadoop components, including MapReduce, HDFS, and YARN. Provisioned the Hadoop cluster using Google Cloud Platform with 1 master node and 2 worker nodes. Loaded/queried the data to answered business questions using Apache Hive and Zeppelin Notebook. Implemented various strategies to optimize our query execution times and compared their performances to gain a better understanding of what is happening internally.
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/cloud_devops)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AndySeo/tree/master/spark)]: Re-implemented the Python Data analytics using Spark and Databricks. Set up Azure Databricks workspace and Spark cluster consisting of 1 master and 1 worker. Big data solution for business problem.
 
 
 ## Highlighted Projects
@@ -38,7 +32,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AndySeo](h
 
 ## Professional Experiences
 
-**Data Analyst, Jarvis (2021-present)**: Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue.
+**Data Analyst, Jarvis (2021-present)**: Automated scripts for node usage information to be stored on the Jarvis database to help the Linux Cluster Administrator team. Analyzed customer shopping trends for London Gift Shop and proposed solutions to increase revenue. Worked with Big data platforms like Hadoop to optimize query times and gain in depth understanding of distributed file systems. Worked with Microsoft Azure Databricks to create workspace and spark cluster to implement big data solutions for LGS.
 
 
 ## Education
